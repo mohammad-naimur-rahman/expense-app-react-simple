@@ -1,9 +1,8 @@
 import ExpenseItem from '../Expenses/ExpenseItem'
 import Card from '../UI/Card'
-import expenses from '../../data/expenses'
 import './Expenses.css'
 
-const Expenses = () => {
+const Expenses = ({ expenses }) => {
   return (
     <Card className='expenses'>
       {
